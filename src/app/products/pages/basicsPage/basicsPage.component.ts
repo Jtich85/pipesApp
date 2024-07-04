@@ -1,0 +1,9 @@
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-basics-page',
+  templateUrl: './basicsPage.component.html',
+  styleUrl: './basicsPage.component.css',
+})
+export class BasicsPageComponent { }
