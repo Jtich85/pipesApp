@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   templateUrl: './basicsPage.component.html',
   styleUrl: './basicsPage.component.css',
 })
-export class BasicsPageComponent { }
+export class BasicsPageComponent {
+
+  public nameLower: string = 'javier';
+  public nameUpper: string = 'JAVIER';
+  public fullName: string = 'jAviEr tIschiNA';
+
+}
