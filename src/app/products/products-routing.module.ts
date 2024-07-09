@@ -5,6 +5,7 @@ import { ProductsComponent } from './products.component';
 import { BasicsPageComponent } from './pages/basicsPage/basicsPage.component';
 import { NumbersPageComponent } from './pages/numbersPage/numbersPage.component';
 import { UncommonPageComponent } from './pages/uncommonPage/uncommonPage.component';
+import { OrderComponent } from './pages/order/order.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'uncommon',
     component: UncommonPageComponent
+  },
+  {
+    path: 'custom',
+    component: OrderComponent
   },
   {
     path: '**',
